@@ -1,7 +1,7 @@
 import os
 import telebot
 
-API_TOKEN = os.getenv("8235721726:AAHx8anmjFtCz_f4GM9MNUdDfnUvqnaVqI4")
+API_TOKEN = os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(content_types=['video'])
